@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Station Tracker Documentation</title>
+    <link rel="stylesheet" href="../css/bulma.min.css">
+    <link rel="stylesheet" href="../css/custom.css">
+</head>
+
+<body>
+    <div class="columns is-gapless max-h">
+        <div class="column is-narrow color-1">
+            <div class="container pt-4 pl-4 pr-4">
+                <div class="menu">
+                    <p class="menu-label">
+                        General
+                    </p>
+                    <ul class="menu-list">
+                        <li><a href="../index.html">Overview</a></li>
+                    </ul>
+                    <p class="menu-label">
+                        Addons
+                    </p>
+                    <ul class="menu-list">
+                        <li>
+                            <a href="../SallyOps/docs.html">Wave Tracker</a>
+                        </li>
+                        <li>
+                            <a class="is-active" href="StationTracker/docs.html">Station Tracker</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="column auto">
+            <div class="container is-fluid ov max-h">
+                <h1 class="title is-1 pt-6">Station Tracker</h1>
+                <div class="content">
+                    <h1>Overview</h1>
+                    <p>The station tracker addon pulls data from Station Command Center and save the data state inside the addon.  The addon generates a client-side webpage that displays the data in a relevent format for the user.</p>
+
+                    <h2>Installation</h2>
+                    <p>Installation is very simple. Click the install button below and click Add.</p>
+                    <a href="stationtracker-1.0-fx.xpi" class="button is-primary">Install Station Tracker</a>
+
+
+                    <h2>Usage</h2>
+                    <p>After the addon is installed, a new addon will be added to the addon bar in the top right hand corner.</p>
+                    <figure class="image w20">
+                        <img src="images/PA-addon-button.PNG">
+                    </figure>
+
+                    <p>
+                        Clicking on the puzzle piece icon will load the client-side webpage and load a new minimized window to extract data from Station Command Center.  The page will be blank while data is loading from Station Command.  After Station Cammand's data has been extracted, the addon will close the new window and update the new client-side dashboard.
+                    </p>
+
+                    <p>
+                        Clicking on the the puzzle piece again will repeat the process above with the exception that there wont be a new client-side dashboard.  The addon will focus the current dashboard and update that one instead.  This is the only way to update data in the dashboard until an auto-update feature is implemented.
+                    </p>
+
+                    <h4>Priority List</h4>
+                    <p>
+                        Once data is showing up in the dashboard, a priority list is generated.
+
+                            <div class="columns is-centered is-desktop">
+                                <div class="column is-1"></div>
+                                <div class="column is-three-quarters-mobile is-two-thirds-tablet is-half-desktop is-one-third-widescreen is-one-third-fullhd">
+                                    <div class="columns is-gapless">
+                                        <div class="column"></div>
+                                        <div class="column is-narrow">
+                                            <h3>Route View</h3>
+                                        </div>
+                                        <div class="column"></div>
+                                    </div>
+                                    <figure class="image mt-0">
+                                        <img src="images/PA-route-list.PNG">
+                                    </figure>
+                                </div>
+                                <div class="column is-1"></div>
+                                <div class="column is-three-quarters-mobile is-two-thirds-tablet is-half-desktop is-one-third-widescreen is-one-third-fullhd">
+
+                                    <div class="columns is-gapless">
+                                        <div class="column"></div>
+                                        <div class="column is-narrow">
+                                            <h3>Station View</h3>
+                                        </div>
+                                        <div class="column"></div>
+                                    </div>
+                                    <figure class="image mt-0">
+                                        <img src="images/PA-station-list.PNG">
+                                    </figure>
+                                </div>
+
+                                <div class="column is-1"></div>
+                            </div>
+                    </p>
+
+                    <p>
+                        The Route View shows all in-progress routes seperated by stage-by times.  The wave stage-by times are 5 minutes earlier than Station Command's stage-by times.  The routes are prioritized based on completion and can be selected for further details.  The stations in Station View are listed in order.  Stations will have a red icon if the station isn't at full capacity.  Stations can be selected and the first route in the station's list will be displayed.
+                    </p>
+
+                    <h4>Filters</h4>
+                    <p>
+                        You can switch between Route View and Station View in the filter section.  The routes can be sorted by percentage completed or by total remaining packages.  This is useful when you have smaller routes, such as flex routes, mixed in with large DSP routes.  The stations can be filtered with the range slider, too.  The slider will only show the stations between the min and max ranges, inclusively.
+                    </p>
+
+                    <figure class="image w40">
+                        <img src="images/PA-filter.PNG">
+                    </figure>
+                    
+                    <h4>Station Details</h4>
+                    <p>
+                        When a route or station is selected in the priority list, its details are displayed in the details tab.
+                    </p>
+
+                    
+                    <figure class="image w60">
+                        <img src="images/PA-details.PNG">
+                    </figure>
+
+                    <p>
+                        The station details tab shows a breakdown of all the routes that were built during throughout the day.  The In Progress section shows each route currently being showed at each station as well as their cart data.  The Completed Route section shows completed route, weather they were fully picked or cut, and the status of the carts.
+                    </p>
+
+                    <h2>Future Updates</h2>
+                    
+                  </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

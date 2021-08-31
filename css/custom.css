@@ -1,0 +1,40 @@
+.color-1 {
+    background-color: rgb(174, 174, 212);
+}
+
+html {
+    height: 100vh;
+    overflow: hidden;
+}
+
+body {
+    height: 100%;
+}
+
+.max-h {
+    height: 100%;
+}
+
+.ov {
+    overflow: auto;
+}
+
+.w20 {
+    max-width: 20%;
+}
+
+.w30 {
+    max-width: 30%;
+}
+
+.w40 {
+    max-width: 40%;
+}
+
+.w60 {
+    max-width: 60%;
+}
+
+.w90 {
+    max-width: 90%;
+}
