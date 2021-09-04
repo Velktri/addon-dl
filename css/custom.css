@@ -17,6 +17,7 @@ body {
 
 .ov {
     overflow: auto;
+    scrollbar-width: thin;
 }
 
 .w20 {
