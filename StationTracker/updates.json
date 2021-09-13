@@ -17,16 +17,20 @@
                 {
                     "version": "1.0.3",
                     "update_link": "https://velktri.github.io/addon-dl/StationTracker/addons/stationtracker-1.0.3-fx.xpi"
-                },
-                {
-                    "version": "1.0.4",
-                    "update_link": "https://velktri.github.io/addon-dl/StationTracker/addons/stationtracker-1.0.4-fx.xpi"
-                },
-                {
-                    "version": "1.0.5",
-                    "update_link": "https://velktri.github.io/addon-dl/StationTracker/addons/stationtracker-1.0.5-fx.xpi"
                 }
             ]
+        },
+
+        "{8b6c399d-5ffc-423c-816f-dee8f650eb6e}": {
+            "updates": [
+                {
+                "version": "1.0.4",
+                "update_link": "https://velktri.github.io/addon-dl/StationTracker/addons/stationtracker-1.0.4-fx.xpi"
+            },
+            {
+                "version": "1.0.5",
+                "update_link": "https://velktri.github.io/addon-dl/StationTracker/addons/stationtracker-1.0.5-fx.xpi"
+            }
         }
     }
 }
