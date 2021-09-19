@@ -1,40 +1,24 @@
 {
     "addons": {
-        "{99d42d42-748e-429d-9d7e-0e6a5d9416c8}": {
-            "updates": [
-                {
-                    "version": "1.0",
-                    "update_link": "https://velktri.github.io/addon-dl/StationTracker/addons/stationtracker-1.0-fx.xpi"
-                },
-                {
-                    "version": "1.0.1",
-                    "update_link": "https://velktri.github.io/addon-dl/StationTracker/addons/stationtracker-1.0.1-fx.xpi"
-                },
-                {
-                    "version": "1.0.2",
-                    "update_link": "https://velktri.github.io/addon-dl/StationTracker/addons/stationtracker-1.0.2-fx.xpi"
-                },
-                {
-                    "version": "1.0.3",
-                    "update_link": "https://velktri.github.io/addon-dl/StationTracker/addons/stationtracker-1.0.3-fx.xpi"
-                }
-            ]
-        },
-
         "{8b6c399d-5ffc-423c-816f-dee8f650eb6e}": {
             "updates": [
                 {
-                "version": "1.0.4",
-                "update_link": "https://velktri.github.io/addon-dl/StationTracker/addons/stationtracker-1.0.4-fx.xpi"
-            },
-            {
-                "version": "1.0.5",
-                "update_link": "https://velktri.github.io/addon-dl/StationTracker/addons/stationtracker-1.0.5-fx.xpi"
-            },
-            {
-                "version": "1.0.6",
-                "update_link": "https://velktri.github.io/addon-dl/StationTracker/addons/stationtracker-1.0.6-fx.xpi"
-            }
+                    "version": "1.0.4",
+                    "update_link": "https://velktri.github.io/addon-dl/StationTracker/addons/stationtracker-1.0.4-fx.xpi"
+                },
+                {
+                    "version": "1.0.5",
+                    "update_link": "https://velktri.github.io/addon-dl/StationTracker/addons/stationtracker-1.0.5-fx.xpi"
+                },
+                {
+                    "version": "1.0.6",
+                    "update_link": "https://velktri.github.io/addon-dl/StationTracker/addons/stationtracker-1.0.6-fx.xpi"
+                },
+                {
+                    "version": "1.0.6",
+                    "update_link": "https://velktri.github.io/addon-dl/StationTracker/addons/stationtracker-1.0.6-fx.xpi"
+                }
+            ]
         }
     }
 }
