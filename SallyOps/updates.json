@@ -1,0 +1,20 @@
+{
+    "addons": {
+        "{8b6c399d-5ffc-423c-816f-dee8f650eb6e}": {
+            "updates": [
+                {
+                    "version": "1.1",
+                    "update_link": "https://velktri.github.io/addon-dl/SallyOps/addons/sallyops-1.1-fx.xpi"
+                },
+                {
+                    "version": "1.2.0",
+                    "update_link": "https://velktri.github.io/addon-dl/SallyOps/addons/sallyops-1.2.0-fx.xpi"
+                },
+                {
+                    "version": "1.2.1",
+                    "update_link": "https://velktri.github.io/addon-dl/SallyOps/addons/sallyops-1.2.1-fx.xpi"
+                }
+            ]
+        }
+    }
+}
