@@ -29,6 +29,10 @@
                 {
                     "version": "0.0.7",
                     "update_link": "https://velktri.github.io/addon-dl/OpsUtilitiesTools/addons/OpsUtilitiesTool-0.0.7.xpi"
+                },
+                {
+                    "version": "0.1.0",
+                    "update_link": "https://velktri.github.io/addon-dl/OpsUtilitiesTools/addons/OpsUtilitiesTool-0.1.0.xpi"
                 }
             ]
         }
