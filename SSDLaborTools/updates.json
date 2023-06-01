@@ -1,0 +1,12 @@
+{
+    "addons": {
+        "{08add97f-4970-4727-a818-5cc34fd65b77}": {
+            "updates": [
+                {
+                    "version": "0.0.1",
+                    "update_link": "https://velktri.github.io/addon-dl/SSDLaborTools/addons/SSDLaborTool-0.0.1.xpi"
+                }
+            ]
+        }
+    }
+}
