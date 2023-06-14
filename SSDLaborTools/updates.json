@@ -9,6 +9,10 @@
                 {
                     "version": "0.1.0",
                     "update_link": "https://velktri.github.io/addon-dl/SSDLaborTools/addons/SSDLaborTool-0.1.0.xpi"
+                },
+                {
+                    "version": "0.1.1",
+                    "update_link": "https://velktri.github.io/addon-dl/SSDLaborTools/addons/SSDLaborTool-0.1.1.xpi"
                 }
             ]
         }
